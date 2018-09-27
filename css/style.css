@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+    width:100%
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.approvedByPutin{
+    position:absolute;
+    left: 180px;
+    top:100px;
+    border-style: solid;
+    border-color: #666;
+    border-width: 3px;
+    background-color: #000;
+    color:#fff;
+    font-family: Slavic;
+    font-size: 30px;
+    display: none;
+}
+.header{
+    background-color: #000;
+    color:#FFF;
+    width: 100%;
+    height: 110px;
+    font-family: Slavic;
+    margin-top: -30px;
+}
+.icon{
+    float:left;
+    width: 90px;
+    height: 90px;
+    margin-left:50px;
+    margin-right:20px;
+    margin-top:20px;
+}
+.title{
+    font-size: 50px;
+    padding-right: 450px;
+    float:left;
+}
+.title:hover{
+    color:#00f;
+    text-shadow: #666;
+}
+.notFound{
+    margin-left: 200px;
+}
+.flag{
+    margin-top: 15px;
+}
+.flag-inactive{
+    margin-top:20px;
+    margin-left: -20px;
+}
+.menuItem{
+    padding-top: 35px;
+    width: 90px;
+    height: 90px;
+    float:left;
+    padding-left: 10px;
+}
+.article{
+    margin-top:10px;
+    margin-bottom:10px;
+    width: auto;
+    height:500px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 5px;
+    text-align: center;
+    padding-right: 180px;
+}
+.article .item{
+    text-align: center;
+    font-family: Slavic;
+    float:right;
+    padding-right: 30px;
+    padding-top:80px;
+}
+.article .item .buyButton{
+    width:100%;
+    height:40px;
+    background: #11DD11;
+}
+.article .item .buyButton .text{
+    padding-top:10px;
+}
+.footer{
+    width: 100%;
+    height:80px;
+    background: #000;
+    text-align: center;
+    color: white;
+    font-family: Slavic;
+}
+.footer-text{
+    padding-top: 30px;
+}
+.warning{
+    color:#ff0000;
+    font-family:Arial;
+}
+@font-face {
+    font-family: Slavic;
+    src: url(Slavic.otf);
+}
