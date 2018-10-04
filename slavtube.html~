@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+      <title>Slavidas</title>
+      <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico" />
+      <link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
+		<header class="header">
+					
+		</header>
+		
+		<article class="article">
+		
+		</article>
+		<footer class="footer"><p class="footer-text">(c)2018 by Stefan Rothmajer</p></footer>
+	</body>
+</html>
