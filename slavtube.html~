@@ -10,11 +10,39 @@
 	
 	<body>
 		<header class="header">
-					
+			<a href="index.html" style="color:white;"><img width=100px; height="100px;" src="imgs/logo.png" class="icon">
+         <h1 class="title"><b>Slavtube</b> <sub> &nbsp oy blin!</sub></h1></a>
+         <div class="menuItem flag">
+            <a href="#"><img src="imgs/russia.png" width="50px;" height="auto"></a>
+         </div>
+         <div class="menuItem flag-inactive">
+            <a href="putin.html"><img src="imgs/usa.png" width="45px;" height="auto"></a>
+         </div>
 		</header>
 		
-		<article class="article">
-		
+		<article align="center" class="article" style="margin: 20px;">
+			<div class="videos">		
+				<div align="center" class="video">
+					<iframe width="260" height="auto" src="https://www.youtube.com/embed/WhbMj50rHMw" frameborder="0"></iframe>
+					<p>#fails</p>				
+				</div>
+				
+				<div align="center" class="video">
+					<iframe width="260" height="auto" src="https://www.youtube.com/embed/Tuah5G4O21U" frameborder="0" encrypted-media allowfullscreen></iframe>
+					<p>#fails</p>					
+				</div>
+				<div align="center" class="video">
+					<iframe width="260" height="auto" src="https://www.youtube.com/embed/Wg-fftqQp-w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<p>#drivingSchool</p>					
+				</div>
+				<div align="center" class="video">
+					<iframe width="260" height="auto" src="https://www.youtube.com/embed/GVy72ZREz_s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<p>#drivingSchool</p>					
+				</div>
+			</div>
+			<div class="radio">
+				
+			</div>
 		</article>
 		<footer class="footer"><p class="footer-text">(c)2018 by Stefan Rothmajer</p></footer>
 	</body>
