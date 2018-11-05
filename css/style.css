@@ -7,6 +7,7 @@ a{
     text-decoration: none;
     color: #000;
 }
+
 .approvedByPutin{
     position:absolute;
     left: 180px;
@@ -38,7 +39,7 @@ a{
 }
 .title{
     font-size: 50px;
-    padding-right: 450px;
+    padding-right: 300px;
     float:left;
 }
 .title:hover{
@@ -132,10 +133,13 @@ a{
 	margin-top: -5px;
 	margin-right: -5px;
 	border-radius: 10px;
-	background: #888;	
+	background: #888;
 }
 
 @font-face {
     font-family: Slavic;
     src: url(Slavic.otf);
+}
+.registerButton{
+    margin-top: 30px;
 }
